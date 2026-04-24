@@ -1,10 +1,10 @@
 # 🎮 Gesture Fighter - Space Shooter
 
 A unique, hands-free Space Shooter game built with Python, Pygame, and MediaPipe! Control your spaceship using computer vision hand-tracking. Hold an open palm to move, a fist to shoot, and point your finger to do both simultaneously!
-
+<!-- Your comment here
 ## 📸 Demo
 
-*(Add a GIF or screenshot of gameplay here!)*
+*(Add a GIF or screenshot of gameplay here!)* -->
 
 ## ✨ Features
 
