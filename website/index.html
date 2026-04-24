@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gesture Fighter - A hands-free, gesture-controlled space shooter built with Python, Pygame, and MediaPipe.">
+    <title>Gesture Fighter | Hand-Controlled Space Shooter</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="stars"></div>
+    <div class="twinkling"></div>
+    
+    <header>
+        <div class="logo">🎮 Gesture Fighter</div>
+        <nav>
+            <a href="#features">Features</a>
+            <a href="#controls">Controls</a>
+            <a href="#download" class="btn-primary">Download</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>The Future of <span>Space Combat</span> is in Your Hands.</h1>
+                <p>Experience a truly hands-free arcade shooter using real-time computer vision. Control your ship, deploy shields, and fire lasers using only hand gestures!</p>
+                <div class="cta-group">
+                    <a href="#download" class="btn-primary large">Get Started on GitHub</a>
+                    <a href="#controls" class="btn-secondary large">View Controls</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="glass-panel">
+                    <div class="video-placeholder">
+                        <div class="play-icon">▶</div>
+                        <p>Watch Demo</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <h2>Game Features</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="icon">🖐️</div>
+                    <h3>AI Hand Tracking</h3>
+                    <p>Powered by Google MediaPipe to instantly detect and map your hand gestures to in-game actions with zero lag.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon">💥</div>
+                    <h3>Dynamic Combat</h3>
+                    <p>Survive endless waves of procedurally generated enemy patterns, and test your skills against giant Boss encounters every 5 waves.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon">🔥</div>
+                    <h3>Combo System</h3>
+                    <p>Chain your kills together to build your combo multiplier. Earn ridiculous scores through fast-paced aggressive play.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="controls" class="controls">
+            <h2>Gesture Controls</h2>
+            <p class="subtitle">Your webcam tracks your hand in real-time. Use these gestures to dominate.</p>
+            
+            <div class="control-grid">
+                <div class="control-item">
+                    <div class="gesture-icon">✋</div>
+                    <div class="gesture-info">
+                        <h4>Open Palm</h4>
+                        <p>Track & Move</p>
+                    </div>
+                </div>
+                <div class="control-item">
+                    <div class="gesture-icon">✊</div>
+                    <div class="gesture-info">
+                        <h4>Fist</h4>
+                        <p>Stop & Shoot</p>
+                    </div>
+                </div>
+                <div class="control-item">
+                    <div class="gesture-icon">☝️</div>
+                    <div class="gesture-info">
+                        <h4>Pointed Finger</h4>
+                        <p>Move & Shoot</p>
+                    </div>
+                </div>
+                <div class="control-item">
+                    <div class="gesture-icon">✌️</div>
+                    <div class="gesture-info">
+                        <h4>Peace Sign</h4>
+                        <p>Activate Shield</p>
+                    </div>
+                </div>
+                <div class="control-item">
+                    <div class="gesture-icon">👍</div>
+                    <div class="gesture-info">
+                        <h4>Thumbs Up</h4>
+                        <p>Pause Game</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="download" class="download">
+            <div class="glass-panel text-center">
+                <h2>Ready to Play?</h2>
+                <p>Gesture Fighter is an open-source Python desktop application.</p>
+                
+                <div class="code-block">
+                    <code>git clone https://github.com/Nidhish01/gesture-fighter.git</code>
+                    <code>cd gesture-fighter</code>
+                    <code>pip install -r requirements.txt</code>
+                    <code>python main.py --camera 0</code>
+                </div>
+                
+                <a href="https://github.com/Nidhish01/gesture-fighter" target="_blank" class="btn-primary outline">View Source on GitHub</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Built with ❤️ using Pygame and MediaPipe.</p>
+    </footer>
+</body>
+</html>
